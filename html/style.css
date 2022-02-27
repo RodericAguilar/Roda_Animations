@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    font-size: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+
+.menu {
+    position: absolute;
+    background-color: #2B2B2B;
+    width: 21.6vw;
+    height: 26vw;
+    border-radius: .5vw;
+    right: 3vw;
+    top: 10vw;
+}
+
+.topicons {
+    position: absolute;
+    background-color: #262626;
+    width: 100%;
+    height: 17%;
+    border-top-left-radius: .5vw;
+    border-top-right-radius: .5vw;
+}
+
+.footicons {
+    position: absolute;
+    background-color: #262626;
+    width: 100%;
+    height: 17%;
+    bottom: 0vw;
+    border-bottom-left-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+}
+
+.footicons i {
+    font-size: 2vw;
+    color: white;
+    padding: .2vw;
+    width: 5vw;
+    height: 76%;
+    bottom: 0vw;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.topicons i {
+    font-size: 2vw;
+    color: white;
+    padding: .2vw;
+    width: 5vw;
+    height: 76%;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+.active {
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+.activeright {
+    border-top-right-radius: .5vw;
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+.activebtnright {
+    border-bottom-right-radius: .5vw;
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+.activebtnleft {
+    border-bottom-left-radius: .5vw;
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+
+.menu i:hover {
+    cursor: pointer;
+}
+
+.menuanimaciones li:hover {
+    cursor: pointer;
+}
+
+.activeleft {
+    border-top-left-radius: .5vw;
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+::-webkit-scrollbar {
+    width: .5vw;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+::-webkit-scrollbar-thumb:focus {
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+}
+
+
+
+
+.menuanimaciones {
+    background-color: #262626;
+    position: absolute;
+    width: 87%;
+    height: 55%;
+    overflow-y: auto;
+    top: 6vw;
+    left: 1.5vw;
+}
+
+.menuanimaciones li {
+    font-size: .8vw;
+    list-style: none;
+    color: white;
+    padding: .5vw;
+    border-radius: .5vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+
+.menuanimaciones li:hover {
+    cursor: pointer;
+    background-image: radial-gradient( circle 972.6px at 10% 20%,  rgba(243,0,75,1) 0%, rgba(255,93,75,1) 90% );
+    width: auto;
+}
+
+.menuanimaciones h1 {
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
